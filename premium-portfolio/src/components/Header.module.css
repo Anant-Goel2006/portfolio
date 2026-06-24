@@ -1,0 +1,62 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 64px;
+  z-index: 1000;
+  transition: all var(--transition-smooth);
+  border-bottom: 1px solid transparent;
+}
+
+.scrolled {
+  background: rgba(6, 7, 10, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--color-border-strong);
+}
+
+.navInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.logo {
+  font-family: var(--font-mono);
+  font-size: var(--text-lg);
+  font-weight: 500;
+  color: var(--color-text-primary);
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.05em;
+}
+
+.dot {
+  color: var(--color-accent-primary);
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.links a {
+  font-family: var(--font-body);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  transition: color var(--transition-fast);
+}
+
+.links a:not(.btn):hover {
+  color: var(--color-text-primary);
+}

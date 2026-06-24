@@ -1,0 +1,68 @@
+/* ============================================================
+   CINEMATIC MONOCHROME TOKENS
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&family=Oswald:wght@500;700&display=swap');
+
+:root {
+  /* ── Typography Stack ── */
+  --font-heading: 'Oswald', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'Inter', monospace; /* Keep it clean and uniform */
+
+  /* ── Typography Scale ── */
+  --text-xs: 10px;
+  --text-sm: 12px;
+  --text-base: 15px;
+  --text-md: 18px;
+  --text-lg: 24px;
+  --text-xl: 36px;
+  --text-2xl: 48px;
+  --text-3xl: 72px;
+  --text-4xl: clamp(80px, 12vw, 140px);
+
+  /* ── Line Heights ── */
+  --lh-tight: 1;
+  --lh-base: 1.5;
+
+  /* ── Color Palette: Cinematic Monochrome ── */
+  --color-bg-primary: #000000;
+  --color-bg-secondary: #050505;
+  --color-bg-card: rgba(20, 20, 20, 0.6);
+  --color-bg-card-hover: rgba(35, 35, 35, 0.8);
+
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #888888;
+  --color-text-muted: #444444;
+
+  /* ── Gradients & Borders ── */
+  --gradient-metallic: linear-gradient(135deg, #ffffff, #666666);
+  --color-border-default: rgba(255, 255, 255, 0.05);
+  --color-border-strong: rgba(255, 255, 255, 0.15);
+  --color-border-active: rgba(255, 255, 255, 0.4);
+
+  /* ── Shadows ── */
+  --shadow-card: 0 30px 60px rgba(0, 0, 0, 0.8);
+  --shadow-glow: 0 0 40px rgba(255, 255, 255, 0.1);
+
+  /* ── Spacing Scale ── */
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-5: 48px;
+  --space-6: 80px;
+  --space-section: clamp(100px, 15vh, 200px);
+  --space-container: clamp(24px, 5vw, 80px);
+
+  /* ── Border Radius ── */
+  --radius-sm: 4px;
+  --radius-md: 12px;
+  --radius-lg: 24px;
+  --radius-pill: 9999px;
+
+  /* ── Motion ── */
+  --transition-fast: 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-smooth: 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-cinematic: 1.2s cubic-bezier(0.25, 1, 0.5, 1);
+}
