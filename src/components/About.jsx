@@ -49,9 +49,11 @@ const About = () => {
                 </div>
             </div>
 
+            {/* 
             <a href="/Resume_Updated.pdf" className="btn btn-outline" style={{ marginTop: 'var(--space-5)' }} target="_blank" rel="noreferrer">
                Download Resume
             </a>
+            */}
           </motion.div>
 
           <motion.div 

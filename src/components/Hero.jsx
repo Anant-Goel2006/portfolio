@@ -118,9 +118,11 @@ const Hero = () => {
             <a href="#about" className="btn btn-primary">
               EXPLORE
             </a>
+            {/* 
             <a href="/Resume_Updated.pdf" target="_blank" rel="noreferrer" className="btn btn-outline">
               Download Resume
             </a>
+            */}
           </motion.div>
         </motion.div>
 

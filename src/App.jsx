@@ -4,7 +4,7 @@ import Projects from './components/Projects';
 import About from './components/About';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
-import Certificates from './components/Certificates';
+// import Certificates from './components/Certificates';
 import Contact from './components/Contact';
 import CustomCursor from './components/CustomCursor';
 import './styles/global.css';
@@ -27,7 +27,7 @@ function App() {
         <Skills />
         <Experience />
         <Projects />
-        <Certificates />
+        {/* <Certificates /> */}
         <Contact />
       </main>
 
